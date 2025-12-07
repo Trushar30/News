@@ -61,7 +61,7 @@ npm run build
 
 ## 📝 License
 
-MIT - Do whatever you want, we're not your boss
+Do whatever you want, we're not your boss
 
 ## 🙏 Credits
 
