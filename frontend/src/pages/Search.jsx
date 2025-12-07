@@ -11,7 +11,7 @@ const Search = () => {
     if (!query) return
     setLoading(true)
     try {
-      const res = await fetch(`https://news-km1k.onrender.com/api/search?q=${query}`)
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/search?q=${query}`)
       const data = await res.json()
       setResults(data.articles || [])
     } catch (error) {
