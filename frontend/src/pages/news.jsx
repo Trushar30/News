@@ -7,7 +7,7 @@ const News = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('http://localhost:5002/api/news')
+    fetch('https://news-km1k.onrender.com/api/news')
       .then(res => res.json())
       .then(data => {
         setNews(data.articles || [])
